@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Montserrat";
+    padding:10em 10em;
+    background: url(../images/7.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:100% 20%;
+}
+.glass{
+    width:400px;
+    height:600px;
+    background-color:rgba(48, 48, 48, 0.1);
+    color:white;
+    padding:50px;
+    border-radius:5px;
+    backdrop-filter:blur(70px);
+    border:2px solid transparent;
+    background-clip:padding-box;
+    box-shadow:10px 10px 10px rgba(45, 55, 68,0 3);
+    line-height:1.5;
+}
+h2{
+    font-size:25px;
+    margin-bottom:10px;
+}
+p{
+    font-size: 16px;
+    margin-bottom:10px;
+}
